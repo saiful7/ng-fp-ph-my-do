@@ -3,3 +3,5 @@
 docker build . -t some-name
 docker run --rm -p80:80 some-name
 ```
+
+http://localhost/info.php
