@@ -19,7 +19,7 @@ RUN apt update && apt-get install -y --no-install-recommends \
 
 RUN echo "<?php phpinfo(); ?>" > /var/www/html/info.php
 
-ADD config/default /etc/nginx/sites-enabled/default
+ADD config/nginx.conf /etc/nginx/sites-enabled/default
 
 
 EXPOSE 80
